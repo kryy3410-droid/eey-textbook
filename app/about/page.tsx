@@ -13,7 +13,7 @@ export default function AboutPage() {
       <div className="bg-gradient-to-br from-slate-800 to-slate-900 text-white px-6 py-10">
         <div className="max-w-lg mx-auto">
           <p className="text-white/50 text-xs font-semibold tracking-widest uppercase mb-3">
-            EEY Digital English Textbook
+            Yuho MIYATA — Digital English Textbook
           </p>
           <h1 className="text-2xl font-bold mb-3">はじめに</h1>
           <p className="text-white/70 text-sm leading-relaxed">
@@ -27,25 +27,25 @@ export default function AboutPage() {
         {/* Section 1 */}
         <Section title="授業設計を支援する">
           <p>
-            教育現場では、教師に求められる役割が増え続けている。その一方で、授業づくりは依然として教師個人の経験や感覚に依存しやすく、活動設計の負担も大きい。
-          </p>
-          <p className="font-semibold text-gray-800">
-            本教材は、授業を統一するためのものではない。
+            本教材の出発点は、経験の浅い教師が「何をやればいいか」に迷わなくて済む状態を作ることにある。
           </p>
           <p>
-            目的は、教師が毎回ゼロから活動を設計しなくても、技能ごとに整理されたアクティビティの中から選択しながら授業を組み立てられる状態を作ることにある。
-          </p>
-          <p>
-            教師は、「何をやるか」を土台として持った上で、生徒の実態や授業方針に応じて自由に調整できる。
-          </p>
-          <p>
-            また、本教材では各技能・各段階ごとに複数のアクティビティを配置している。活動を増やすこと自体が目的ではなく、
+            各技能・各段階ごとに複数のアクティビティを配置しているのは、活動を増やすことが目的ではない。
           </p>
           <p className="text-center font-semibold text-gray-800 py-1">
             「どの技能を、何のために扱うのか」
           </p>
           <p>
-            を明確にした上で、教師が選択できる状態を重視している。
+            を明確にした上で、教師が選択できる状態を整えるためだ。
+          </p>
+          <p className="font-semibold text-gray-800">
+            本教材は、授業を統一するためのものではない。
+          </p>
+          <p>
+            教育現場では、教師に求められる役割が増え続けている。その一方で、授業づくりは依然として教師個人の経験や感覚に依存しやすく、活動設計の負担も大きい。
+          </p>
+          <p>
+            本教材があることで、教師は毎回ゼロから活動を設計しなくてもよくなる。技能ごとに整理されたアクティビティの中から選択しながら授業を組み立て、生徒の実態や授業方針に応じて自由に調整できる。
           </p>
         </Section>
 
@@ -236,7 +236,7 @@ export default function AboutPage() {
         </Section>
 
         <p className="text-xs text-gray-400 text-center pt-4">
-          EEY — English Education of Yuho
+          宮田優歩 — 2026.05.27
         </p>
       </div>
     </main>

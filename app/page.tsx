@@ -6,7 +6,7 @@ export default function Home() {
     <main className="min-h-screen flex flex-col">
       <header className="bg-white border-b border-gray-200 px-4 py-3 flex items-center justify-between">
         <p className="text-xs text-gray-400 font-medium tracking-widest uppercase">
-          EEY Digital English Textbook
+          Yuho MIYATA — Digital English Textbook
         </p>
         <Link href="/about" className="text-xs font-bold text-gray-400 hover:text-gray-600 transition-colors">
           この教材について
@@ -40,7 +40,7 @@ export default function Home() {
           )
         ))}
 
-        <p className="text-center text-xs text-gray-400 mt-8">EEY — English Education of Yuho</p>
+        <p className="text-center text-xs text-gray-400 mt-8">宮田優歩 — 2026.05.27</p>
       </div>
     </main>
   )

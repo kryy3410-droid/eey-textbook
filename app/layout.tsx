@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "EEY Digital English Textbook",
-  description: "デジタル英語教材 by EEY（English Education of Yuho）",
+  title: "宮田優歩 Digital English Textbook",
+  description: "デジタル英語教材 by 宮田優歩（Yuho MIYATA）",
 };
 
 export default function RootLayout({

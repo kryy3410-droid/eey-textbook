@@ -73,7 +73,7 @@ export default async function ThemePage({ params }: { params: Promise<{ theme: s
             </Link>
           ))}
         </div>
-        <p className="text-center text-xs text-gray-400 mt-8">EEY — English Education of Yuho</p>
+        <p className="text-center text-xs text-gray-400 mt-8">宮田優歩 — 2026.05.27</p>
       </div>
     </main>
   )
