@@ -64,6 +64,19 @@ export default function ActivitySelector({ activities, lv }: Props) {
                   {act.title}
                 </span>
 
+                {/* 評価観点バッジ */}
+                {act.aspects && (
+                  <div className="flex gap-1 flex-shrink-0">
+                    {act.aspects.map(a => (
+                      <span key={a} className={`text-xs font-bold px-1 py-0.5 rounded ${
+                        isOpen ? 'bg-white/20 text-white' : 'bg-gray-100 text-gray-500'
+                      }`}>
+                        {a === 1 ? '①' : a === 2 ? '②' : '③'}
+                      </span>
+                    ))}
+                  </div>
+                )}
+
                 {/* 開閉矢印 */}
                 <span className={`text-sm flex-shrink-0 transition-transform ${isOpen ? 'rotate-180 text-white/70' : 'text-gray-300'}`}>
                   ▾
