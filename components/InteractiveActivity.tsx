@@ -13,6 +13,8 @@ export default function InteractiveActivity({ activity, lv, embedded = false }: 
     (activity.quizItems?.length ?? 0) + (activity.fillItems?.length ?? 0)
   const [revealed, setRevealed] = useState<Set<number>>(new Set())
   const [mcAnswers, setMCAnswers] = useState<Map<number, number>>(new Map())
+  const [showConnection, setShowConnection] = useState(false)
+  const [showPoint, setShowPoint] = useState(false)
 
   const toggle = (i: number) =>
     setRevealed(prev => {
@@ -46,16 +48,32 @@ export default function InteractiveActivity({ activity, lv, embedded = false }: 
         <p className="text-sm text-gray-700 leading-relaxed">{activity.description}</p>
 
         {activity.connection && (
-          <div className="bg-white/80 rounded-xl px-4 py-3 border-l-4 border-blue-200 space-y-1">
-            <p className="text-xs font-bold text-blue-300 tracking-widest uppercase">Connection</p>
-            <p className="text-sm text-gray-600 leading-relaxed">{activity.connection}</p>
+          <div className="bg-white/80 rounded-xl border-l-4 border-blue-200 overflow-hidden">
+            <button
+              onClick={() => setShowConnection(v => !v)}
+              className="w-full flex items-center justify-between px-4 py-2.5 text-left"
+            >
+              <p className="text-xs font-bold text-blue-300 tracking-widest uppercase">Connection</p>
+              <span className={`text-blue-300 text-xs transition-transform duration-200 ${showConnection ? 'rotate-180' : ''}`}>▼</span>
+            </button>
+            {showConnection && (
+              <p className="text-sm text-gray-600 leading-relaxed px-4 pb-3">{activity.connection}</p>
+            )}
           </div>
         )}
 
         {activity.point && (
-          <div className="bg-white/80 rounded-xl px-4 py-3 border-l-4 border-gray-300 space-y-1">
-            <p className="text-xs font-bold text-gray-400 tracking-widest uppercase">Point</p>
-            <p className="text-sm text-gray-600 leading-relaxed">{activity.point}</p>
+          <div className="bg-white/80 rounded-xl border-l-4 border-gray-300 overflow-hidden">
+            <button
+              onClick={() => setShowPoint(v => !v)}
+              className="w-full flex items-center justify-between px-4 py-2.5 text-left"
+            >
+              <p className="text-xs font-bold text-gray-400 tracking-widest uppercase">Point</p>
+              <span className={`text-gray-400 text-xs transition-transform duration-200 ${showPoint ? 'rotate-180' : ''}`}>▼</span>
+            </button>
+            {showPoint && (
+              <p className="text-sm text-gray-600 leading-relaxed px-4 pb-3">{activity.point}</p>
+            )}
           </div>
         )}
 
