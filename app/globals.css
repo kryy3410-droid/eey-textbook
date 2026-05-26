@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+:root {
+  --background: #f9fafb;
+  --foreground: #111827;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Hiragino Sans",
+    "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-serif;
+  line-height: 1.7;
+}
+
+/* IPA / monospace */
+.ipa {
+  font-family: "Lucida Sans Unicode", "DejaVu Sans", monospace;
+  letter-spacing: 0.02em;
+}
