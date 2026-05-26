@@ -176,6 +176,7 @@ export const SNS_CONTENT: Content = {
         {
           type: 'practice',
           title: 'True / False Quiz',
+          aspects: [1],
           description: '本文の内容に関する文を読んで、正しければ True、間違っていれば False を選ぶ。タップして即座に答えを確認できる。',
           connection: '本文の事実関係を正確に確認するこの力が、応用の Platform Multiple Choice Quiz と Text Structure Analysis の土台になる。まず「書かれていることを正しく読み取る」ところから始まる。',
           point: '「なんとなく正解」じゃなく、本文のどの部分が根拠になったかを確認することが大事。答え合わせのとき、テキストに戻って確認する習慣をつけよう。',
@@ -195,6 +196,7 @@ export const SNS_CONTENT: Content = {
         {
           type: 'game',
           title: 'Vocabulary Bingo',
+          aspects: [1, 3],
           description: '15語の重要単語から9つを選んで3×3のビンゴカードを作り、読み上げられた日本語の意味に対応する英単語をチェックしていくゲーム。\n対象語：essential / billions / platform / content / influencer / express / owned by / formerly / dominant / specialize / algorithm / privacy / addictive / controversy / characteristics',
           connection: 'ここで身につける語彙が、応用の Text Structure Analysis での本文分析・聞く応用の Word Harvest & Retell・書く応用の Summary Writing で実際に使う言葉になる。',
           point: '単語を「丸暗記」しようとしなくていい。ビンゴをねらいながら何度も音と意味を結びつけているうちに、自然と頭に残っていく。',
@@ -203,6 +205,7 @@ export const SNS_CONTENT: Content = {
         {
           type: 'creative',
           title: 'Mind Map',
+          aspects: [1, 2],
           description: '「Social Media」を中心に、6つのプラットフォームを枝として広げ、それぞれに本文から拾ったキーワードを英語で書き込むマップを作る。',
           connection: '本文をマップで整理する力が、応用の Text Structure Analysis で「著者がどう書いたか」を分析するときの骨格になる。また書く応用の Summary Writing での情報整理力にも直結する。',
           point: '上手に描こうとしなくていい。「どのキーワードをどの枝につけるか」を考える時間が、情報を整理する力そのもの。ペアと比べたとき、自分と相手の選択の違いに注目してみよう。',
@@ -219,6 +222,7 @@ export const SNS_CONTENT: Content = {
         {
           type: 'practice',
           title: 'Platform ID Listening',
+          aspects: [1],
           description: '教師が本文の一節を読み上げ、それがどのプラットフォームについての説明かを当てる活動。正解後は該当段落を自分でも音読する。',
           connection: 'プラットフォームの特徴を音声で聞き分けるこの力が、応用の Selective Listening と Dictation の土台になる。「聞いて理解できる」状態が先にある。',
           point: 'プラットフォーム名を「知っている」のと、英語でその特徴を聞き取れるのは別のこと。聴いて「あ、これあのSNSだ」とピンとくる感覚を大切にしよう。',
@@ -232,6 +236,7 @@ export const SNS_CONTENT: Content = {
         {
           type: 'game',
           title: 'Sentence Ordering',
+          aspects: [1, 2],
           description: '本文から抜き出した5文をバラバラに並べたカードを、音声を聞きながら正しい順番に並べ替えるペア活動。',
           connection: '音声と文の流れを結びつける力が、応用の Dictation で「一語単位で正確に書き取る」力に変換される。文の流れを耳で感じる感覚を大切にしよう。',
           point: '音声が流れたとき、全部の単語を聞き取ろうとしなくていい。「この文の前後に来そうな文はどれか」という感覚で、文の流れをつかむことを意識しよう。',
@@ -253,6 +258,7 @@ export const SNS_CONTENT: Content = {
         {
           type: 'practice',
           title: 'Fill in the Blank',
+          aspects: [1],
           description: '日本語のヒントをもとに、英文の空欄に入る単語を答える穴埋め問題。タップして答えを確認できる。',
           connection: 'ここで正しく使える語彙・表現を積み上げることが、応用の Chain Writing と Summary Writing での素材になる。「文の中で使える」が次のステップのスタートライン。',
           point: '正解した単語は「見て分かった」段階。答え合わせのあと、必ず1回は口に出してみよう。それが「使える語彙」に近づく一歩になる。',
@@ -269,6 +275,7 @@ export const SNS_CONTENT: Content = {
         {
           type: 'practice',
           title: 'Word Order Challenge',
+          aspects: [1],
           description: 'バラバラに並んだ単語を正しい語順に並べ替えて英文を作る練習。英語の文構造の感覚を体で覚えることが目的。',
           connection: '語順の感覚を体に入れることが、応用の Chain Writing と Perspective Writing で「自分の文を作る」力の基盤になる。',
           point: '日本語の語順と英語の語順は全然違う。「どの単語が先に来るか」を迷ったとき、それが英語の語順を体に染み込ませているサイン。間違えた文こそ、もう一度並べ直す価値がある。',
@@ -285,6 +292,7 @@ export const SNS_CONTENT: Content = {
         {
           type: 'practice',
           title: 'Sentence Reconstruction',
+          aspects: [1, 2],
           description: '日本語訳を見て、対応する英文を自力で書き起こす活動。タップして模範解答と比較できる。',
           connection: '文全体を再現する力が、応用の Summary Writing で「自分の言葉でまとめる」ときの土台になる。モデル文を使いこなすところから始まる。',
           point: '完璧に一致しなくてもいい。自分の答えと模範解答を見比べたとき、「なぜ自分はこう書いたか」「模範はなぜこの語順か」を考えることが、文法力の本当の伸びどころ。',
@@ -299,6 +307,7 @@ export const SNS_CONTENT: Content = {
         {
           type: 'game',
           title: 'Sentence Builder Race',
+          aspects: [1, 3],
           description: 'グループで協力して、バラバラの単語カードを並べ替えて英文を完成させよう。',
           connection: 'グループで英文を組み立てるこの活動を通じて語順の感覚を体に入れることが、応用の Chain Writing と Summary Writing での「速く・正確に書く」力につながる。',
           point: '英語が苦手でも「この単語ここじゃない？」と声に出すことがチームへの貢献になる。正確さよりも、参加することと協力することを意識しよう。',
@@ -328,6 +337,7 @@ export const SNS_CONTENT: Content = {
         {
           type: 'practice',
           title: 'Memorization Challenge',
+          aspects: [1],
           description: '発音のポイントを意識しながら英文を繰り返し声に出し、テキストを見ずに言えるようにする練習。',
           connection: '英文を体に入れる過程で身につく語感・語彙が、応用の One-Slide Presentation で「自分の言葉で話す」ための土台になる。',
           point: '「暗記」は目的じゃなく手段。英文を体に入れる過程で、語の繋がりや強弱のリズムが自然に身につく。詰まったところが、自分の発音・語順の弱点を教えてくれる場所。',
@@ -345,6 +355,7 @@ export const SNS_CONTENT: Content = {
         {
           type: 'game',
           title: 'Memorization Relay',
+          aspects: [1, 3],
           description: '個人で練習した英文を、グループで1文ずつ交代に言っていくゲーム。ミスが出たら最初からやり直す。',
           connection: '「正確に言える」状態を積み上げることが、応用の Peer Review Presentation での「構成して話す」力の基礎になる。チームで鍛えた発表への意識も次につながる。',
           point: '自分の番が来たときの緊張感が、暗記の質を上げる。「ミスしたくない」その気持ちをうまく使おう。自分がつまずいた箇所は、グループで一番練習が必要な部分。',
@@ -361,6 +372,7 @@ export const SNS_CONTENT: Content = {
         {
           type: 'creative',
           title: 'Emotion Reading Challenge',
+          aspects: [1, 2],
           description: '正確に言えるようになった英文を、感情カードで引いた「感情キャラクター」で読み直す活動。同じ文でも抑揚・ペース・間を変えて読み比べる。',
           connection: '「どう聞こえるか」を意識する力が、応用の 30-Second Ad Speech での「相手に伝わる話し方」に変換される。正確さに「伝える意識」が加わるのがこの活動から。',
           point: '英語は「何を言うか」だけじゃなく「どう言うか」で伝わり方が大きく変わる。笑いながらやっていい。大げさなほど、言語の「音の力」を体で実感できる。',
@@ -408,6 +420,7 @@ export const SNS_CONTENT: Content = {
         {
           type: 'practice',
           title: 'Dialogue Practice',
+          aspects: [1],
           description: 'SNSをテーマにした会話ダイアログを使い、まず一人でAパートとBパートを練習し、慣れたらペアでテキストなしで通す活動。',
           connection: 'ダイアログの表現を体に入れることが、応用の Information Gap と SNS Advice Conversation での自然なやりとりの素材になる。「借り物の表現」が少しずつ「自分の表現」になる段階。',
           point: '最初はスクリプトを見ながらでいい。「見ないで言える」になったとき初めて、表現が自分の口の中に入ってくる。どこで詰まるかが、自分がまだ「借り物の言葉」で使っている部分のサイン。',
@@ -421,6 +434,7 @@ export const SNS_CONTENT: Content = {
         {
           type: 'practice',
           title: 'Reaction Drill',
+          aspects: [1],
           description: 'SNSに関する発言に対して、"That\'s interesting." や "I know what you mean." などのリアクション表現を即座に返す練習。ペアを変えながら繰り返す。',
           connection: '反射的に返せるリアクション表現が、応用の SNS Advice Conversation と Keep-Going Challenge で「会話を続ける」力の核心になる。',
           point: '会話が続かないのは、英語力より「返し方のストック」が少ないから。ここで練習するリアクション表現は、どんな話題でも使える万能ツール。体が反射的に返せるようになるまで繰り返そう。',
@@ -440,6 +454,7 @@ export const SNS_CONTENT: Content = {
         {
           type: 'game',
           title: 'Expression Bingo',
+          aspects: [1, 3],
           description: 'ダイアログに登場する9つの表現が書かれたビンゴカードを使う。ペアでダイアログを読み合いながら、聞こえた表現をマークしていこう。先にタテ・ヨコ・ナナメのどれか1列を揃えたら "Bingo!" と言う。',
           connection: 'ゲームを通してダイアログの表現を耳と頭に入れることが、応用の Information Gap と Keep-Going Challenge での自然な会話につながる。',
           point: 'ゲームに集中しているうちに、表現が自然と耳と頭に入ってくる。どの表現がどの場面で使われるかを意識しながら聞いてみよう。',
@@ -478,6 +493,7 @@ export const SNS_CONTENT: Content = {
         {
           type: 'practice',
           title: 'Platform Multiple Choice Quiz',
+          aspects: [1, 2],
           description: '基礎のTrue/Falseで確認した本文の内容を、4択形式でより細かく問い直す。タップして答えを確認しよう。',
           connection: '基礎の True / False Quiz で事実確認の力をつけた。応用では一段細かい読み取り——「最も正確な解釈」を選ぶ精度を上げる。発展の Evidence Hunt と Critical Reading でこの読解力を批判的思考に接続する。',
           point: 'True/Falseは「合っている・合っていない」の判断だったけど、4択はもう一段階深い読み取りが必要になる。「なんとなく正解」ではなく、本文のどの一文が根拠になるかを意識しながら選んでみよう。',
@@ -527,6 +543,7 @@ export const SNS_CONTENT: Content = {
         {
           type: 'analysis',
           title: 'Text Structure Analysis',
+          aspects: [1, 2],
           description: '「platform / function / users / benefit / risk」の5つの観点で、6つの段落を表に整理して分析する活動。情報が書かれていない欄に注目することが重要。',
           connection: '基礎の Mind Map で本文の情報を整理した。応用では「著者がどういう構造で書いているか」まで分析する。この力が、発展の Critical Reading で「なぜそう書いたか」を問う土台になる。',
           point: '「何が書いてあるか」と同じくらい、「何が書かれていないか」を意識してほしい。全プラットフォームにRiskが書かれているわけじゃない。その「差」が、筆者が何を一番問題視しているかを教えてくれる。これはニュースやSNS投稿を読むときにも使える視点だよ。',
@@ -546,6 +563,7 @@ export const SNS_CONTENT: Content = {
         {
           type: 'analysis',
           title: 'Fact vs. Opinion Jigsaw',
+          aspects: [2, 3],
           description: 'AとBで担当段落を分けて分析し、共有して初めて全体が完成する。',
           connection: '基礎の True / False Quiz で「事実を確認する目」を養った。応用ではさらに踏み込み、「事実と意見を区別する」力を育てる。発展の Evidence Hunt でこの目を教科書の外に向ける。',
           point: '「自分の担当を責任を持って分析し、相手に伝える」構造が、互いを必要とする読解につながる。事実と意見を区別する力は、SNS・ニュース・広告でフェイクや誘導に流されないための基礎的なメディアリテラシー。',
@@ -570,6 +588,7 @@ export const SNS_CONTENT: Content = {
         {
           type: 'practice',
           title: 'Dictation',
+          aspects: [1],
           description: '音声を一文一文正確に書き取る活動。内容はすでに読んでいる文なので、内容把握より「単語レベルの正確な聞き取り」に集中できる。',
           connection: '基礎の Sentence Ordering で文の流れを耳でつかんだ。応用では一語単位の正確さで書き取る力を鍛える。この精度が、発展の Authentic Audio Comprehension でリアル音声を処理するときの基盤になる。',
           point: '内容はもう知ってるはずなのに、単語単位で書き取ろうとすると意外と聞き取れない部分が出てくる。そのギャップこそが、自分のリスニングの弱点を教えてくれる場所。「聞こえなかった」を流さず、一語一語を確かめる意識で取り組もう。',
@@ -586,6 +605,7 @@ export const SNS_CONTENT: Content = {
         {
           type: 'analysis',
           title: 'Selective Listening',
+          aspects: [1, 2],
           description: '音声を繰り返し聞きながら、数字・固有名詞・リスクに関する語句など「特定の情報だけ」を選んで書き取る活動。ラウンドごとに聞く対象を絞る。',
           connection: '基礎の Platform ID Listening で特徴を聞き分けた。応用では「必要な情報だけを選んで聞く」という実践的な力を磨く。発展の Speaker\'s Stance でこの力が「話者の立場を読む」方向に深化する。',
           point: '「全部聞き取らなきゃ」と思うと頭がパンクする。でも実際の会議や授業で必要なのは、大事な情報だけを素早く捕まえるスキル。目的を決めてから聞くと、同じ音声でもまったく違って聞こえてくるよ。',
@@ -600,6 +620,7 @@ export const SNS_CONTENT: Content = {
         {
           type: 'analysis',
           title: 'Word Harvest & Retell',
+          aspects: [1, 2],
           description: '音声から聞こえた単語をとにかく書き出し、そのメモだけを使ってペアに内容を伝える活動。文にせず単語だけ書き取ることから始める。',
           connection: '基礎の Vocabulary Bingo で語彙の意味を確認した。応用では音声から語彙を「拾い上げ」、それだけを使って内容を伝える。発展の Authentic Audio Comprehension と Vocabulary in the Wild でこの力を教室の外に向ける。',
           point: '「完璧に聞き取れなかったから話せない」ではなく、「聞き取れた単語だけで伝える」ことを目標にしよう。手持ちの情報だけで動く力が、実際の英語使用の場面では必要になる。メモにない言葉は使わない——それがこの活動のルールであり、リスニング力と向き合う鍵。',
@@ -622,6 +643,7 @@ export const SNS_CONTENT: Content = {
         {
           type: 'creative',
           title: 'Chain Writing',
+          aspects: [1, 2, 3],
           description: '4人グループで「SNSの良い点と悪い点」について1文ずつ交代で書き、接続表現でつないで1つの段落を完成させる活動。',
           connection: '基礎の Word Order Challenge・Sentence Builder Race で文の組み立て方を身につけた。応用ではその力を「次の人に続く文を書く」即興的な場面で使う。接続表現を意識することが、発展の論理的な文章構成への準備になる。',
           point: '自分1人では書けないような段落が、4人でつなぐと完成する。前の人の文を受け取って次に渡すとき、「この文の後に何を置けば段落がつながるか」を考えることが英語ライティングの核心。However・For example・Thereforeを意識して使ってみよう。',
@@ -640,6 +662,7 @@ export const SNS_CONTENT: Content = {
         {
           type: 'practice',
           title: 'Summary Writing',
+          aspects: [1, 2],
           description: '本文全体を自分の言葉で英語のサマリーとして3〜5文でまとめる活動。本文をコピーせず、自分の言葉で言い換えることが条件。',
           connection: '基礎の Fill in the Blank・Sentence Reconstruction で「正しく書く力」を固めた。応用では本文を圧縮して「自分の言葉でまとめる」力を使う。この力が、発展の School SNS Policy と News Article での論理的な文章構成に直結する。',
           point: '「本文を短くする」のではなく、「自分が理解したことを自分の言葉で書く」のがサマリーの本質。書いてみると、自分がどこをちゃんと読めていてどこを読めていなかったかがはっきりわかる。',
@@ -659,6 +682,7 @@ export const SNS_CONTENT: Content = {
         {
           type: 'analysis',
           title: 'Perspective Writing',
+          aspects: [2, 3],
           description: '「SNS大賛成派」と「SNS批判派」に分かれ、それぞれの立場から理由付きで段落を書く活動。書き終えたらお互いの文章を読み比べる。',
           connection: '基礎の Word Order Challenge で正確に書く力をつけた。応用では「書き手の視点を選んで書く」という論点を持った文章作成を練習する。発展の Open Letter to a CEO でこの力を「実際の相手に届ける文章」へと発展させる。',
           point: '自分の本音と違う立場で書くのが、この活動の面白さ。「反対の立場だとどう言うだろう？」を考えることで、自分の意見の根拠も強くなる。ディベートや小論文で「相手の反論を想定して書く」力は、ここから始まる。',
@@ -672,6 +696,7 @@ export const SNS_CONTENT: Content = {
         {
           type: 'creative',
           title: 'Write a Social Media Post',
+          aspects: [2, 3],
           description: '実際に投稿するプラットフォームを選んでから、そのSNSに合わせた英語の短文を2〜3文で書く活動。',
           connection: '基礎の Fill in the Blank で語彙を文の中で使う練習をした。応用ではプラットフォームを選ぶことで「誰に・何のために書くか」を意識した実践的な書き方を体験する。',
           point: 'プラットフォームを選ぶことで、「誰が読むか・何文字で伝えるか・どんなトーンか」が変わってくる。Xのポストとインスタのキャプションでは書き方が違う。「伝える相手と場所を意識して書く」のが実際のライティングの基本。英語のハッシュタグも考えてみよう。',
@@ -699,6 +724,7 @@ export const SNS_CONTENT: Content = {
         {
           type: 'practice',
           title: 'One-Slide Presentation',
+          aspects: [1, 2],
           description: '「SNSの良い点・悪い点・自分の意見」をスライド1枚にまとめ、1分間で話す活動。暗記した英文を再現するのではなく、自分の言葉で構成して話す最初のステップ。',
           connection: '基礎の Memorization Challenge で語感と語彙を体に入れた。応用ではその素材を使って「自分の考えを構成して話す」発表の基本形を練習する。発展の Pitch Speech と Live Stream Speech への足がかりとなる。',
           point: '基礎では「覚えた文を正確に言う」練習をしたよね。今度は「自分の意見を組み立てて話す」ステージ。最初から流暢に話せなくていい。良い点・悪い点・自分の意見の3つがちゃんと言えれば、それがプレゼンの骨格になる。',
@@ -718,6 +744,7 @@ export const SNS_CONTENT: Content = {
         {
           type: 'creative',
           title: '30-Second Ad Speech',
+          aspects: [2, 3],
           description: '「健康的なSNSの使い方を助けるアプリ」の英語CMを30秒で発表する活動。アプリ名・機能・英語のキャッチコピーを自由に考える。',
           connection: '基礎の Emotion Reading Challenge で「どう聞こえるか」を意識した。応用では30秒という制約の中で「相手を引きつける話し方」を鍛える。発展の Pitch Speech でこの力を「アイデアを売り込む」場面に転用する。',
           point: '30秒でどう印象を残すか——それが広告スピーチのすべて。「構成して話す」感覚を掴んだ上で、今度は「目的と聴衆を絞る」挑戦をしよう。英語の正確さより「伝えたいという熱量」の方が、聞き手には届くことが多い。',
@@ -732,6 +759,7 @@ export const SNS_CONTENT: Content = {
         {
           type: 'analysis',
           title: 'Peer Review Presentation',
+          aspects: [2, 3],
           description: '「自分がよく使うSNSとその理由」について1分プレゼンを行い、ペアから3点フィードバック（伝わったこと・よかった点・改善点）をもらう活動。発表する側と評価する側を交代する。',
           connection: '基礎の Memorization Relay で「正確に言える」状態を作った。応用では「自分の考えを構成して話す」発表の完成形に取り組む。発展の Random Word Speech と Live Stream Speech で、この力を準備なしの場面でも使えるかが問われる。',
           point: '発表する力だけでなく、「聞いて評価する力」も同時に鍛えるのがこの活動のポイント。ルーブリックを見ながら相手の発表を聞くと、「いいプレゼン」の条件が自分の中に入ってくる。それが次の自分のプレゼンを変える。',
@@ -759,6 +787,7 @@ export const SNS_CONTENT: Content = {
         {
           type: 'authentic',
           title: 'Information Gap',
+          aspects: [1, 2],
           description: 'AとBで異なるプラットフォーム情報を持ち、相手のシートにない情報を英語の質問だけで引き出してシートを完成させる活動。',
           connection: '基礎の Dialogue Practice で「表現を使える状態」を作った。応用では相手が持っていない情報を英語で引き出すという、本物の会話の目的を持って話す。発展の Hot Topic Discussion でこの力を「準備なし・フリートピック」の場面へ拡張する。',
           point: '「知らない情報を英語で質問して手に入れる」——これが本物のコミュニケーションニーズ。相手が持っている情報があって初めて会話が成立する。その「互いを必要とする」構造を楽しみながら、どんな質問をすれば必要な情報が引き出せるか考えてみよう。',
@@ -773,6 +802,7 @@ export const SNS_CONTENT: Content = {
         {
           type: 'authentic',
           title: 'SNS Advice Conversation',
+          aspects: [2, 3],
           description: '一人がSNSに関する悩みを話し、もう一人が英語でアドバイスする活動。一問一答ではなく最低2往復のやりとりを続けることがゴール。',
           connection: '基礎の Reaction Drill で反応フレーズを反射的に使える状態にした。応用では「相手の状況を聞いてアドバイスを返す」という、深いやりとりを練習する。発展の Devil\'s Advocate でこの「相手の立場で考える」力がさらに機能する。',
           point: '「アドバイスをする」のは、相手の状況をちゃんと聞いた後でないとできない。"That sounds tough." の一言から始まる会話が、自然と続いていくのを体感してほしい。基礎のReaction Drillで練習した応答表現を、もっと長い流れの中で使ってみよう。',
@@ -792,6 +822,7 @@ export const SNS_CONTENT: Content = {
         {
           type: 'game',
           title: 'Keep-Going Challenge',
+          aspects: [2, 3],
           description: 'SNSについて英語で1分間（成功したら2分）、会話を途切れさせずに続けることを目指す活動。基礎で習得した表現と反応をすべて使う。',
           connection: '基礎の Expression Bingo で表現を耳と頭に入れた。応用では「会話を途切れさせない」という実践的な課題に挑む。発展の Hot Topic Discussion でこの力を「準備なし・トピック固定なし」の場面で試す。',
           point: '会話が続かないのは語彙が少ないからじゃなくて、「返し方」を知らないことが多い。"What about you?" "Have you ever...?" "By the way..." ——こういう一言が会話をつなぐ橋になる。間違えても止まらないことの方が大事。',
@@ -819,6 +850,7 @@ export const SNS_CONTENT: Content = {
         {
           type: 'authentic',
           title: 'Evidence Hunt',
+          aspects: [2, 3],
           description: '本文の主張を裏付けるか反証する実際のデータや記事を英語で検索し、本文の記述と比較してまとめる活動。',
           connection: '応用の Fact vs. Opinion Jigsaw で「事実と意見を区別する目」を養った。発展では、その目を使って教科書の外に出る。本文の記述を実際のデータと照合することが、情報を批判的に読む力の完成形だ。',
           point: '教科書が「正しい」と思い込んでいないか？ 書いてあることを信じるのではなく、自分でデータを探して検証してみよう。世の中に出回る情報は全部、誰かが選んで書いたものだ。',
@@ -832,6 +864,7 @@ export const SNS_CONTENT: Content = {
         {
           type: 'analysis',
           title: 'Critical Reading',
+          aspects: [2, 3],
           description: '本文の記述のうち、自分が賛成できるものと反対・疑問を感じるものをそれぞれ選び、理由とともにペアで共有する活動。',
           connection: '応用の Text Structure Analysis で「著者がどう書いているか」を分析した。発展ではさらに踏み込んで、「著者が何を言っていないか・なぜそう書いたか」まで考える。Fact vs. Opinion で培った「意見を見分ける目」がここで本格的に機能する。',
           point: '「先生が使っている教材だから正しい」は思考停止。どんな文章にも書いた人の視点や限界がある。自分なりの「なぜ？」「本当に？」を持つことが、読む力の本質だ。',
@@ -853,6 +886,7 @@ export const SNS_CONTENT: Content = {
         {
           type: 'authentic',
           title: 'Authentic Audio Comprehension',
+          aspects: [1, 2],
           description: 'TED・ニュース・ポッドキャストなど授業外の本物の英語音声を聞き、主なメッセージと本文との共通点・違いをまとめる活動。',
           connection: '応用の Word Harvest & Retell で授業音声の内容を自分の言葉でまとめる力をつけた。発展では同じ力を、授業外の本物の英語音声に向ける。授業で鍛えた「聞く力」が教室の外でも通用するかを確かめる段階だ。',
           point: '授業で学んだ英語が「現実の世界の英語」と同じかどうか、自分の耳で確かめてみよう。テキストの外に出て初めて、自分の英語力の本当の場所がわかる。',
@@ -867,6 +901,7 @@ export const SNS_CONTENT: Content = {
         {
           type: 'analysis',
           title: "Speaker's Stance",
+          aspects: [2, 3],
           description: '英語音声を聞いて、話者がSNSについて賛成・批判・中立のどの立場を取っているかを判断し、その根拠となる発言をメモする活動。',
           connection: '応用の Selective Listening で「必要な情報を正確に聞き取る」精度を上げた。発展では情報量だけでなく、話者の「立場・温度感・選択」まで読み取る。読む発展（Critical Reading）と同じ問い——「これは事実か、解釈か」——を今度は音声で問う。',
           point: '人が話すとき、言葉の選び方・強調の仕方・何を省略するかに必ず立場が滲み出る。「何を言っているか」だけでなく「どういう角度から言っているか」を聞き取れるようになろう。',
@@ -880,6 +915,7 @@ export const SNS_CONTENT: Content = {
         {
           type: 'authentic',
           title: 'Vocabulary in the Wild',
+          aspects: [1, 3],
           description: 'YouGlishを使い、授業で学んだ語彙が実際の英語動画の中でどんな文脈・発音・場面で使われているかを確認する活動。',
           connection: '基礎の Vocabulary Bingo・応用の Word Harvest & Retell で語彙を学び、文脈の中で使う練習をした。発展では、同じ単語が実際の英語話者によってどう発音され、どんな場面で使われているかを自分の耳で確かめる。「知っている単語」を「聞き取れる単語」へ変換する最終段階だ。',
           point: '授業で覚えた単語が「生きた英語」の中でどう使われているか、実際に見てみよう。意味を知っている単語と、リアルな会話で使いこなせる単語はまったく別物だ。',
@@ -900,6 +936,7 @@ export const SNS_CONTENT: Content = {
         {
           type: 'authentic',
           title: 'School SNS Policy',
+          aspects: [2, 3],
           description: '本文で学んだ各プラットフォームの特徴・リスク・メリットを根拠として、自分たちの学校のSNS利用ガイドラインを英語で5項目以上作る活動。',
           connection: '応用の Perspective Writing で「書き手の視点を意識して書く」力をつけた。発展では一つの視点を超えて、複数の立場（生徒・教師・保護者）を想定したルールを構成する。Summary Writing で鍛えた論理的な整理力が、根拠のある主張を作る土台になる。',
           point: '「学校のルールを自分たちで決める」としたらどうする？ 教科書の知識を使って、自分たちが実際に守れるリアルなルールを考えてみよう。誰かに言われたルールより、自分で作ったルールの方が意味を考えるはずだ。',
@@ -919,6 +956,7 @@ export const SNS_CONTENT: Content = {
         {
           type: 'authentic',
           title: 'Open Letter to a CEO',
+          aspects: [2, 3],
           description: 'SNSの問題点と具体的な改善要求を、InstagramのCEOへの公開書簡という形式で英語100語以上で書く活動。',
           connection: '応用の Perspective Writing で「自分の立場から書く」練習をした。発展では「実際の相手（CEO）に届ける文章」として書く。誰に向けて書くかを明確にすることで、語彙・語調・構成がどう変わるかを意識しよう。',
           point: '「大企業に意見するなんて自分には関係ない」と思ってる？ 実際、SNSに関する政策変更のきっかけになった意見書は市民から出たものも多い。英語で書くことは、世界の意思決定の場に自分の声を届ける手段になりうる。',
@@ -933,6 +971,7 @@ export const SNS_CONTENT: Content = {
         {
           type: 'creative',
           title: 'News Article',
+          aspects: [2, 3],
           description: 'SNSに関するニュース記事を、見出し・リード文・本文・記者名という構成で英語で書く活動。',
           connection: '応用の Summary Writing で「必要な情報を選んでまとめる」力をつけた。発展ではニュース記事という形式を使い、同じ力を「記者の視点」に変換する。何を選んで何を省くか——その判断が、読み手の印象を決める。',
           point: '同じ出来事でも、見出しや言葉の選び方で読者の印象は大きく変わる。記者になったつもりで書くことで、自分が普段読んでいるニュースがどうやって「作られているか」が見えてくるはずだ。',
@@ -954,6 +993,7 @@ export const SNS_CONTENT: Content = {
         {
           type: 'game',
           title: 'Random Word Speech',
+          aspects: [2, 3],
           description: 'くじで引いた単語を必ず使いながら、SNSに関する30秒の即興スピーチを準備30秒で行う活動。',
           connection: '応用の Peer Review Presentation で「構成して話す」経験を積んだ。発展では準備を30秒に限定する。構成する力はあっても「今すぐ話せるか」は別の力だ。積み上げた語彙・知識・表現を即座につなげる練習をここで行う。',
           point: '「準備できてないから話せない」は練習不足のサイン。本当の場面では準備なんてない。自分の頭の中にある知識と語彙を即座につなげる力を、今ここで鍛えよう。',
@@ -974,6 +1014,7 @@ export const SNS_CONTENT: Content = {
         {
           type: 'authentic',
           title: 'Pitch Speech',
+          aspects: [2, 3],
           description: 'SNSの問題を解決するサービス・アプリのアイデアを、クラスメイト（審査員）に向けて2分の準備で60秒ピッチする活動。',
           connection: '応用の 30-Second Ad Speech で「短くまとめて伝える」力を使った。発展ではそれをさらに発展させ、「相手を動かすアイデアを売り込む」という目的を加える。伝える力から、人を動かす力へ。',
           point: 'スタートアップ発表でも就職面接でも、「短時間で相手を動かす」場面は必ず来る。英語で自分のアイデアを人に売り込む経験は、授業の外の世界で直接使えるスキルだ。',
@@ -988,6 +1029,7 @@ export const SNS_CONTENT: Content = {
         {
           type: 'authentic',
           title: 'Live Stream Speech',
+          aspects: [2, 3],
           description: '「SNSライブ配信」という設定で、スマホ（カメラ）に向かってSNSと私というテーマで60秒スピーチする活動。',
           connection: '応用の Peer Review Presentation ではクラスメイトに向けて話した。発展では「カメラ越しの見知らぬ視聴者」に向けて話す。聞き手が見えない状況で話すことで、目線・間の作り方・言葉の選び方の意識がまったく変わる。',
           point: '教室でクラスメイトに話すのと、カメラ越しに「見知らぬ誰か」に話すのは全然違う。視聴者を意識した話し方・目線・間の取り方を意識してみよう。これは授業の外で一番使える発信スキルかもしれない。',
@@ -1008,6 +1050,7 @@ export const SNS_CONTENT: Content = {
         {
           type: 'game',
           title: 'Hot Topic Discussion',
+          aspects: [2, 3],
           description: 'トピックカードを引き、書かれたSNSトピックについて準備時間なしでペアと3分間、英語で即興会話する活動。',
           connection: '応用の Keep-Going Challenge で「会話を途切れさせない」力をつけた。発展では準備もなく、トピックも選べない状況で始まる。「会話が続くか」ではなく、「どんな話題でも自分の意見を持って話せるか」を問う段階だ。',
           point: '国際交流や留学の場では、話すトピックは向こうが決める。準備ゼロでも話せる状態を作るのが発展の目標だ。「何か言わなきゃ」じゃなく「何が言えるか」を楽しんでみよう。',
@@ -1021,6 +1064,7 @@ export const SNS_CONTENT: Content = {
         {
           type: 'analysis',
           title: "Devil's Advocate",
+          aspects: [2, 3],
           description: '一人がSNSについての意見を述べ、もう一人は「本当にそう言えるか？」「例外はないか？」と問い返し続け、3分後に役割を交代する活動。',
           connection: '応用の Information Gap では相手に伝えるべき情報があった。発展の Devil\'s Advocate では「正解」は存在しない。問い返し続けるパートナーがいることで、思考が一段深まる。SNS Advice Conversation で練習した「相手の立場で考える」姿勢がここでも機能する。',
           point: '反論することが目的じゃない。相手の考えを「もっと深く」引き出すために問い続けることが目的だ。自分の意見に「でも本当に？」と聞いてくる人がいると、思考は一段深くなる。そういう相手になろう。',
@@ -1040,6 +1084,7 @@ export const SNS_CONTENT: Content = {
         {
           type: 'creative',
           title: 'Cross-Cultural Comparison',
+          aspects: [2, 3],
           description: '日本と海外のSNSの使われ方の違いについて、本文の知識と自分の経験をもとに英語で自由に議論する活動。',
           connection: '応用の Keep-Going Challenge で「話し続ける力」を、SNS Advice Conversation で「相手の立場を考える力」を養った。発展ではその力に「本文の知識」と「自分の文化的経験」を組み合わせる。正解のない問いを英語で考え続けることが、発展の最終ゴールだ。',
           point: '「なぜ日本ではLINEが圧倒的で、海外ではWhatsAppなのか？」——その答えは教科書には書いていない。文化・習慣・社会の仕組みの違いを自分の言葉で英語にすることが、本当の意味での「発展」だ。',

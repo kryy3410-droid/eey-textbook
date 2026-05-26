@@ -40,6 +40,7 @@ export interface PronunciationTip {
 export interface Activity {
   type: ActivityType
   title: string
+  aspects?: (1 | 2 | 3)[]
   description: string
   connection?: string
   point?: string

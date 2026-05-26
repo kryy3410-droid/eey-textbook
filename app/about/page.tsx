@@ -213,6 +213,26 @@ export default function AboutPage() {
           <p className="text-center text-gray-500 text-xs bg-gray-50 rounded-lg py-3">
             1テーマ ≈ 2週間 ／ 高校1年分の授業進行に対応
           </p>
+
+          {/* 評価観点 */}
+          <div>
+            <p className="text-xs font-semibold text-gray-400 tracking-widest uppercase mb-2">評価観点バッジ</p>
+            <div className="bg-white rounded-xl border border-gray-100 shadow-sm divide-y divide-gray-50">
+              {[
+                { badge: '①', label: '知識・技能', note: '語彙・文法・表現の正確な習得' },
+                { badge: '②', label: '思考・判断・表現', note: '情報の分析・整理・自分の考えの表現' },
+                { badge: '③', label: '学びに向かう力・人間性', note: '協働・主体性・粘り強く取り組む態度' },
+              ].map(({ badge, label, note }) => (
+                <div key={badge} className="flex items-start gap-3 px-4 py-3">
+                  <span className="text-sm font-bold text-gray-700 flex-shrink-0 w-5">{badge}</span>
+                  <div>
+                    <p className="text-sm font-semibold text-gray-800">{label}</p>
+                    <p className="text-xs text-gray-400 mt-0.5">{note}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
         </Section>
 
         <p className="text-xs text-gray-400 text-center pt-4">

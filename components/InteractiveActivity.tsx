@@ -39,8 +39,25 @@ export default function InteractiveActivity({ activity, lv, embedded = false }: 
       {/* Activity header（embeddedのときはActivitySelectorが表示するので非表示）*/}
       {!embedded && (
         <div className={`${lv.bg} px-5 py-3`}>
-          <p className="text-white/70 text-xs font-medium tracking-wider uppercase">Activity</p>
-          <h3 className="text-white font-bold text-base">【{activity.title}】</h3>
+          <div className="flex items-start justify-between gap-2">
+            <div>
+              <p className="text-white/70 text-xs font-medium tracking-wider uppercase">Activity</p>
+              <h3 className="text-white font-bold text-base">【{activity.title}】</h3>
+            </div>
+            {activity.aspects && (
+              <div className="flex gap-1 mt-1 flex-shrink-0">
+                {activity.aspects.map(a => (
+                  <span key={a} className={`text-xs font-bold px-1.5 py-0.5 rounded ${
+                    a === 1 ? 'bg-white/20 text-white' :
+                    a === 2 ? 'bg-white/20 text-white' :
+                    'bg-white/20 text-white'
+                  }`}>
+                    {a === 1 ? '①' : a === 2 ? '②' : '③'}
+                  </span>
+                ))}
+              </div>
+            )}
+          </div>
         </div>
       )}
 
